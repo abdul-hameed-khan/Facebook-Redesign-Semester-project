@@ -1,0 +1,270 @@
+.Story{
+	top: 60px;
+	left: 350px;
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.UploadPost{
+	top: 370px;
+	left: 350px;
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+
+}
+.RightSide{
+	top: 60px;
+	left: 10px;
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Covid{
+	top: 5px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Friends{
+	top: 38px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Pages{
+	top: 70px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+
+}
+.Groups{
+	top: 105px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Vid{
+	top: 138px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+
+.Gaming{
+	top: 175px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Events{
+	top: 210px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+
+}
+.Weather{
+	top: 245px;
+	left: 10px;
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.Post01{
+	top: 580px;
+	left: 350px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post02{
+	top: 1200px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post03{
+	top: 1820px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post04{
+	top: 2440px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post05{
+	top: 3060px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post06{
+	top: 3680px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post07{
+	top: 4300px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.Post08{
+	top: 4920px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+	left: 350px;
+	position: absolute;
+	width: 580px;
+	height: 600px;
+	background: white;
+	border-radius: 3px/3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.post{
+	top: 70px;
+	left: 355px;
+	position: absolute;
+	width: 600px;
+	height: 210px;
+}
+
+.story01{
+	top: 45px;
+	left: 10px;
+	position: absolute;
+	width: 190px;
+	height: 230px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.story02{
+	top: 45px;
+	left: 205px;
+	position: absolute;
+	width: 190px;
+	height: 230px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.story03{
+	top: 45px;
+	left: 395px;
+	position: absolute;
+	width: 190px;
+	height: 230px;
+	-webkit-box-shadow: 0 3px 8px rgba( 0, 0, 0, .25);
+}
+.share{
+	top: 410px;
+	left: 355px;
+	position: absolute;
+	width: 600px;
+	height: 100px;
+}
+#column-1{
+	top: 0px;
+	left: 0px;
+	background: white;
+	width: 570px;
+	height: 150px;
+	border-radius: 3px/3px;
+	font-size: 15px;
+	font-family: verdana;
+	color: #1b6192;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.share input[type=text]{
+	
+	border-bottom: 1px solid #ddd;
+	background: white;
+	outline: none;
+	width: 550px;
+	height: 70px;
+	font-size: 14px;
+	color: #ccc;
+}
+.share input[type=submit]{
+	
+	outline: none;
+	height: 18px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+

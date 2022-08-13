@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create new Account</title>
+    <link rel="stylesheet" href="../CSS/signup.css" >
+
+
+    <script laguage="JavaScript">
+        function validateform()
+        {
+            valid=true;
+          
+            if(document.getElementById("fname").value=="")
+            {
+                alert("Please enter your First name");
+                valid= false;
+                return valid;
+            }
+            
+
+            
+          
+          if(document.getElementById("lname").value=="")
+          {
+              alert("Please enter your Last name");
+              valid= false;
+              return valid;
+          } 
+
+          if(document.getElementById("email").value=="")
+          {
+              alert("Please enter your Email");
+              valid= false;
+              return valid;
+          } 
+
+          if(document.getElementById("password").value=="")
+          {
+              alert("Please enter your Password");
+              valid= false;
+              return valid;
+          } 
+
+          if(document.getElementById("birth").value=="")
+          {
+              alert("Please enter your Birth date");
+              valid= false;
+              return valid;
+          } 
+
+          if((document.getElementById("male").checked==false) && (document.getElementById("female").checked==false) && (document.getElementById("other").checked==false))
+          {
+            alert ( "Please choose your Gender" );
+            valid= false;
+              return valid;
+             
+          } 
+
+          
+        
+        }
+    </script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        
+        <form action= "Home.html" method="POST" name="signup" onsubmit="return validateform();">
+            <div class="model">
+                <p class="facebook-logo">Facebook</p>
+                <div class="signup">
+                   
+                   <div class="close">
+                       X
+                   </div>
+                   
+                   <div class="signup-heading">
+                       
+                       <p class="signup-name">Sign Up</p>
+                       
+                       <p class="signup-cname">It's quick and easy.</p>
+                       
+                   </div>
+                   
+                   <div class="signup-name">
+                             
+                      <input type="text" name="fname" id="fname" placeholder="First name">
+                      
+                      <input type="text" name="lname" id="lname" placeholder="Lastname">
+                                 
+                   </div>
+                   
+                   <div class="signup-email">
+                             
+                      <input type="email" name="email" id="email" placeholder="Email address or phone number">
+                             
+                   </div>
+                         
+                   <div class="signup-password">
+                             
+                       <input type="password" name="password" id="password" placeholder="Password">
+                             
+                    </div>
+                    <div class="date">
+                        <label>Date of Birth:</label>
+                    </div>
+                    <div class="DOB">
+                        <input type="date" name="birth" id="birth" >
+                   </div>
+    
+                        <div class="date">
+                         <label for="">Gender</label>
+                          <div class="DOB">
+                            
+                            <!-- <input type="radio" name="gender" id="male" >
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" >
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="other">
+                            <label for="other">Other</label> -->
+
+
+                            <select name="gender" >
+                        
+                            <option id="male" value="male">Male</option>
+                            <option id="female" value="female">Female</option>
+                            <option id="other" value="other">Other</option>
+                            </select>
+            
+                            </div>
+    
+    
+                        </div>
+                   
+                    <div class="signup-terms">
+                      
+                        <p> By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.  
+                          </p>
+                          
+                    </div>
+                    <div class="signup-button">
+                      
+                        <button>Sign Up</button>
+                        
+                    </div>
+                </div> 
+            </div>
+    
+        </form>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://fullhdpictures.com/wp-content/uploads/2015/04/2015-Facebook-Wallpapers.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: Poppins;
+}
+
+.FDesign{
+	color: white;
+	top: 23%;
+	left: 26%;
+	position: absolute;
+}
+.Design{
+	color: white;
+	top: 80%;
+	left: 55%;
+	position: absolute;
+}
+.wrapper{
+	width: 400px;
+	height: 420px;
+	color: #000;
+	top: 50%;
+	left: 70%;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50% , -50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+}
+.wrapper input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.wrapper input[type=text], .wrapper input[type=Password]{
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: white;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+	color: #ccc;
+}
+.wrapper input[type=submit]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.wrapper input[type=submit]:hover{
+	cursor: pointer;
+}
+.wrapper a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.8;
+}
+.wrapper a:hover{
+	color: #fff;
+	opacity: 1;
+}
+.bottom-text{
+	color: #fff;
+}
+.bottom-text input{
+	width: 10%;
+	float: center;
+}
+.bottom-text a{
+	float: center;
+}
+.buttonS {
+  	border:none;
+	outline: none;
+	height: 40px;
+	background: #1E90FF;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+

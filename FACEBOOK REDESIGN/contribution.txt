@@ -1,0 +1,5 @@
+FA18-BCS-002	ABDUL HAMEED KHAN ----FB header,friends Page, MERGING(integration)
+FA18-BCS-010	DAUD AHMED------------sign up page, games page
+FA18-BCS-	ALI-------------------covid 19 page, groups page
+FA18-BCS-	IDREES SHARIFI--------login page, homepage
+FA18-BCS-	USMAN RASOOL----------event page, weather page, videos page

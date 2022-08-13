@@ -1,0 +1,56 @@
+
+.header{
+    background: rgb(1, 50, 141);
+
+}
+.navbar{
+    margin-top: 50px;
+}
+.iteam{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.form-control{
+    padding: 10px 15px 5px 10px;
+    margin-top: 50px;
+}
+.link{
+    color: black !important;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 0px 15px 5px 10px;
+    display: unset !important;
+}
+
+
+.row .col-md-6{
+    padding: 10px 0px 20px 130px;
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 15px;
+}
+.row h6{
+    padding: 80px 10px 5px 0px;
+    margin-top: 50px;
+    position: right;
+}
+.container .box{
+    margin-top: 50px;
+    position: relative;
+    width: 700px;
+    background: rgb(61, 75, 92);
+    padding: 100px 40px 60px;
+    box-shadow: 100 15px 45px rgba(0, 0, 0, .1);
+
+}
+.box .com-btn{
+margin-top: 50px;
+    padding: 0px 10px 0px 0px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+ 

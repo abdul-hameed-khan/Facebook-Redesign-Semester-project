@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login-Facebook</title>
+	<link rel="icon"  href="http://cdn.techgyd.com/50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-70.png">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet"  href="CSS/login.css">
+	<script laguage="JavaScript">
+        function validateform()
+        {
+            valid=true;
+          
+            if(document.getElementById("email").value=="")
+            {
+                alert("Please enter your email or phone");
+                valid= false;
+                return valid;
+            }
+            
+
+            
+          
+          if(document.getElementById("password").value=="")
+          {
+              alert("Please enter your password");
+              valid= false;
+              return valid;
+          } 
+        
+        }
+    </script>
+</head>
+<body>
+
+	<div class="Design">
+			<h2>Facebook helps you connect and share<br>with the people in your life.</h2>
+	</div>
+	<div class="wrapper">
+		
+
+		<form action="HTML/Home.html" method="POST" name="login" onsubmit="return validateform();">
+			<input type="text" name="email" id="email" placeholder="Email or Phone number" >
+			<input type="Password" name="password" id="password" placeholder="Password" >
+			<input type="submit" value="LOGIN">
+		</form>
+		<div class="bottom-text">
+			<a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login">Forgotten Password?<br><br></a>
+		</div>
+		
+		<div class="socials">
+			<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+			<a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+			<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a><br><br><br><br>
+		</div>
+		<div >
+			<button class="button buttonS" ><a href="HTML/signup.html">Create New Account</a></button>
+		</div>
+	</div>
+
+</body>
+</html>
